@@ -1,0 +1,73 @@
+/******** these are all defualt settings ********/
+nav, header, footer
+{
+    display: block;
+}
+
+body
+{
+    margin: 0;
+    line-height: 1;
+}
+
+/*************** nav bar settings ***************/
+nav
+{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(221, 221, 221, 0.781);
+     overflow: hidden; /*in mobile view img size is adjusted properly */
+}
+
+nav .nav_bar li
+{
+    list-style: none; /* removes bullet points */
+    float: right;
+}
+
+nav ul.nav_bar li a
+{ 
+    display: block;
+    text-decoration: none; /*removes the lines or any decoration */
+    min-height: 16px;
+    text-align: center;
+    padding: 16px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 19px;
+}
+
+ul.nav_bar li a:hover
+{
+    background-color: black;
+    color: white;
+}
+
+ul.nav_bar li.drop_down
+{
+    display: none;
+}
+
+
+
+/***************** mobile style****************/
+@media screen and (max-width: 650px) 
+{
+    ul.nav_bar li:not(:nth-child(6)) /*6th is the numberth of line element that is does not lose display*/
+    {
+        display: none;
+    }
+
+    ul.nav_bar li.drop_down
+    {
+        display: block;
+        float: right;
+    }
+
+    ul.nav_bar li.home_button
+    {
+        float: left;
+    }
+
+    nav_bar.responsive
+}
