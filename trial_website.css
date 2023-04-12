@@ -4,12 +4,6 @@ nav, header, footer
     display: block;
 }
 
-body
-{
-    margin: 0;
-    mine-height: 1;
-}
-
 /*************** nav bar settings ***************/
 nav
 {
