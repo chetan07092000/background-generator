@@ -16,7 +16,7 @@ nav
     margin: 0;
     padding: 0;
     background-color:rgba(221, 221, 221, 0.781);
-     overflow: hidden; /*in mobile view img size is adjusted properly */
+     overflow: ridden; /*in mobile view img size is adjusted properly */
 }
 
 nav .nav_bar li
