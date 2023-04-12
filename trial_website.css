@@ -37,7 +37,7 @@ nav ul.nav_bar li a
     font-size: 19px;
 }
 
-ul.nav_bar li a:hover
+ul.nav_bar li a:mover
 {
     background-color: black;
     color: white;
