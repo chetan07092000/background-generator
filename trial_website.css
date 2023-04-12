@@ -4,13 +4,19 @@ nav, header, footer
     display: block;
 }
 
+body
+{
+    margin: 0;
+    mine-height: 1;
+}
+
 /*************** nav bar settings ***************/
 nav
 {
     margin: 0;
     padding: 0;
     background-color:rgba(221, 221, 221, 0.781);
-     overflow: ridden; /*in mobile view img size is adjusted properly */
+     overflow: hidden; /*in mobile view img size is adjusted properly */
 }
 
 nav .nav_bar li
@@ -31,7 +37,7 @@ nav ul.nav_bar li a
     font-size: 19px;
 }
 
-ul.nav_bar li a:hover
+ul.nav_bar li a:mover
 {
     background-color: black;
     color: white;
